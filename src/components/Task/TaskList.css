@@ -1,0 +1,26 @@
+.task-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left:-80px;
+}
+.task{
+    width:30%;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    /* box-shadow: 2px; */
+}
+ul{
+    list-style-type: none;
+}
+span{
+    float: right;
+}
+#edit{
+    margin-right: 5px;
+}
